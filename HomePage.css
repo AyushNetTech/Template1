@@ -21,13 +21,13 @@ body,html{
 }
 .Nav{
     /* position: absolute; */
+    position:fixed;
     height: 80px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.089);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 .Logo{
     font-size: 40px;
