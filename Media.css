@@ -1,0 +1,50 @@
+@media (max-width: 450px){
+    .LoadingPage{
+        height: 50vh;
+        width: 100%;
+    }
+    .Nav{
+        height: 40px;
+    }
+    .Logo{
+    font-size: 20px;
+    padding-left: 10px;
+    }
+    .Nav ul{
+        font-size: 14px;
+        gap: 12px;
+        padding-right: 20px;
+    }
+    .Notation{
+        height: 50px;
+        width: 350px;
+        font-size: 18px;
+    }
+    .Notation p{
+        margin-top: 10px;
+        font-size: 13px;
+        width: 320px;
+    }
+    .Notation .LoginBtn{
+        margin-top: 70px;
+        height: 30px;
+        width: 100px;
+    }
+    .LoginBtn .Circle{
+        height: 26px;
+        width: 26px;
+        margin-left: 2px;
+        margin-top: 2px;
+    }
+    .LoginBtn:hover .Circle{
+        margin-left: 72px;
+        transition: 1s;
+    }
+    .LoginBtn .Text{
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: lighter;
+        padding-left: 20px;
+    }
+}
