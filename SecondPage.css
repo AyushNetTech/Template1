@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 70px 0px 70px;
+    gap: 10px;
 }
 .LeftImg{
     height: 400px;
