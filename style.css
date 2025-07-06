@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: #FAF9F6;
+    /* padding: 5px 5px 0px 5px; */
+}
+.LoadingPage{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+              url(./Assets/Mountains1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+
+    /* border-radius: 20px; */
+}
+.Nav{
+    /* position: absolute; */
+    height: 80px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Logo{
+    font-size: 40px;
+    color: #FAF9F6;
+    font-family: "Barrio", system-ui;
+    padding-left: 60px;
+}
+.Nav ul{
+    font-family: "Amarante", serif;
+    font-size: 20px;
+    color: #FAF9F6;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding-right: 80px;
+}
+.Notation{
+    position: absolute;
+    height: 100px;
+    text-align: center;
+    width: 700px;
+    color: #FAF9F6;
+    font-size: 38px;
+    font-family: "Amarante", serif;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Notation p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.Notation .LoginBtn{
+    position: absolute;
+    margin-top: 30px;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    border-radius: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    
+}
+.LoginBtn .Circle{
+    position: absolute;
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 4px;
+    margin-top: 3px;
+    left: 0px;
+    transition: 1s;
+}
+.LoginBtn .Text{
+    position: absolute;
+    right: 40px;
+    transition: 1s;
+    font-weight: bolder;
+}
+.LoginBtn:hover .Circle{
+    margin-left: 153px;
+    transition: 1s;
+    background-color: rgb(248, 119, 33);
+}
+.LoginBtn:hover .Text{
+    margin-right: 50px;
+    transition: 1s;
+}
+
+.InfoPage{
+    height: 100vh;
+    width: 100%;
+    background-color: #111;
+}
