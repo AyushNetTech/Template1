@@ -44,16 +44,23 @@
         margin-left: 72px;
         transition: 1s;
     }
-    .LoginBtn .Text{
+    /* .LoginBtn .Text{
         font-size: 12px;
         height: 30px;
         line-height: 30px;
         font-weight: lighter;
         padding-left: 20px;
-    }
+    } */
+    .LoginBtn .Text{
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px;
+        right: -5px;
+        font-weight: bolder;
+}
     .LoginBtn:hover .Text{
         width: 100px;
-        margin-right: 40px;
+        margin-right: 20px;
         transition: 1s;
     }
 }
