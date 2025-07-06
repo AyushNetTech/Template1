@@ -93,7 +93,6 @@ body,html{
 }
 .LoginBtn .Text{
     position: absolute;
-    right: 40px;
     transition: 1s;
     font-weight: bolder;
 }
