@@ -40,11 +40,20 @@
         margin-left: 72px;
         transition: 1s;
     }
+    .Circle:hover{
+        margin-left: 72px;
+        transition: 1s;
+    }
     .LoginBtn .Text{
         font-size: 12px;
         height: 30px;
         line-height: 30px;
         font-weight: lighter;
         padding-left: 20px;
+    }
+    .LoginBtn:hover .Text{
+        width: 100px;
+        margin-right: 40px;
+        transition: 1s;
     }
 }
